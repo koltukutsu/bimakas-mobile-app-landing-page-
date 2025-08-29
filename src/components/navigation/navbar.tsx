@@ -59,7 +59,12 @@ export const Navbar: React.FC = () => {
       <div className="container mx-auto px-6 lg:px-8 h-16 flex items-center justify-between max-w-[1400px]">
         {/* Logo */}
         <div className="flex items-center">
-          <div className="text-2xl font-bold text-gray-900">
+          <img 
+            src="/logo.png" 
+            alt={config.brand.logo.alt[currentLanguage] || 'BiMakas Logo'} 
+            className="h-8 w-auto mr-3"
+          />
+          <div className="text-2xl font-bold" style={{ color: config.brand.colors.text }}>
             {t('navigation.logo')}
           </div>
         </div>
@@ -70,11 +75,20 @@ export const Navbar: React.FC = () => {
             <button
               key={item.key}
               onClick={() => scrollToSection(item.href)}
-              className={`text-sm font-medium transition-colors hover:text-gray-900 ${
+              className={`text-sm font-medium transition-colors ${
                 activeSection === item.key
-                  ? 'text-gray-900 font-semibold'
+                  ? 'font-semibold'
                   : 'text-gray-600'
               }`}
+              style={{
+                color: activeSection === item.key ? config.brand.colors.text : undefined
+              }}
+              onMouseEnter={(e: React.MouseEvent<HTMLButtonElement>) => e.currentTarget.style.color = config.brand.colors.text}
+              onMouseLeave={(e: React.MouseEvent<HTMLButtonElement>) => {
+                if (activeSection !== item.key) {
+                  e.currentTarget.style.color = '';
+                }
+              }}
             >
               {item.label}
             </button>
@@ -198,9 +212,12 @@ export const Navbar: React.FC = () => {
                 onClick={() => scrollToSection(item.href)}
                 className={`block w-full text-left px-4 py-2 rounded-md text-sm font-medium transition-colors ${
                   activeSection === item.key
-                    ? 'text-gray-900 bg-gray-100 font-semibold'
-                    : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
+                    ? 'bg-gray-100 font-semibold'
+                    : 'text-gray-600 hover:bg-gray-50'
                 }`}
+                style={{
+                  color: activeSection === item.key ? config.brand.colors.text : undefined
+                }}
               >
                 {item.label}
               </button>
@@ -214,9 +231,12 @@ export const Navbar: React.FC = () => {
                   onClick={() => setLanguage('en')}
                   className={`px-3 py-1 rounded-md text-sm font-medium transition-colors ${
                     currentLanguage === 'en'
-                      ? 'bg-gray-900 text-white'
+                      ? 'text-white'
                       : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
                   }`}
+                  style={{
+                    backgroundColor: currentLanguage === 'en' ? config.brand.colors.text : undefined
+                  }}
                 >
                   {t('navigation.languageSelector.english')}
                 </button>
@@ -224,9 +244,12 @@ export const Navbar: React.FC = () => {
                   onClick={() => setLanguage('tr')}
                   className={`px-3 py-1 rounded-md text-sm font-medium transition-colors ${
                     currentLanguage === 'tr'
-                      ? 'bg-gray-900 text-white'
+                      ? 'text-white'
                       : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
                   }`}
+                  style={{
+                    backgroundColor: currentLanguage === 'tr' ? config.brand.colors.text : undefined
+                  }}
                 >
                   {t('navigation.languageSelector.turkish')}
                 </button>

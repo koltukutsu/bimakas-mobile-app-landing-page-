@@ -1,7 +1,7 @@
 {
   "en": {
     "navigation": {
-      "logo": "Cal AI",
+      "logo": "BiMakas",
       "menuItems": {
         "features": "Features",
         "testimonials": "Testimonials", 
@@ -15,45 +15,45 @@
     },
     "hero": {
       "socialProof": "Loved by 5M users with ⭐ 4.9 rating",
-      "headline": "Meet Cal AI",
-      "subheadline": "Track your calories with just a picture",
-      "description": "Meet Cal AI, the AI-powered app for easy calorie tracking. Snap a photo, scan a barcode, or describe your meal and get instant calorie and nutrient info.",
+      "headline": "Meet BiMakas",
+      "subheadline": "Beauty & grooming services at your location",
+      "description": "Meet BiMakas, the on-demand platform that brings licensed barbers and beauty professionals to your home, office, or hotel. Book instantly and enjoy salon-grade results wherever you are.",
       "cta": {
         "primary": "Download for iOS",
         "secondary": "Get it on Google Play"
       }
     },
     "testimonials": {
-      "title": "Used by your favorite fitness influencers 👀",
+      "title": "Trusted by top barbers and beauty professionals 💼✨",
       "items": [
         {
-          "name": "Jeremiah Jones",
-          "quote": "Make a healthier choice for your latenight snack and use the Cal AI app to track your calories"
+          "name": "Ahmet Barber",
+          "quote": "BiMakas has revolutionized how I connect with clients. Professional, reliable, and the booking system is seamless."
         },
         {
-          "name": "Dawson Gibbs",
-          "quote": "Track with Cal AI app, if you're not tracking your calories while going for your goals then you're doing it all wrong."
+          "name": "Elif Kuaför",
+          "quote": "As a mobile beauty professional, BiMakas gives me the flexibility to serve clients anywhere with complete trust and security."
         },
         {
-          "name": "Hussein Farhat",
-          "quote": "If you're tracking your calories and macros correctly with Cal AI, you can get away with eating almost anything..."
+          "name": "Murat Styling",
+          "quote": "The platform's verification process ensures quality service. My clients love the convenience and I love the professional support."
         },
         {
-          "name": "Kadin Kerns",
-          "quote": "Looking good as usual and my calories are too with Cal AI 🔥"
+          "name": "Zeynep Beauty",
+          "quote": "BiMakas helped me expand my client base significantly. The real-time tracking and payment system is brilliant 🔥"
         },
         {
-          "name": "Brian Wallack",
-          "quote": "Cal AI can literally track anything 🤯"
+          "name": "Can Berber",
+          "quote": "BiMakas can literally handle any beauty service request. It's changed how we work in this industry 🤯"
         },
         {
-          "name": "Alex Eubank",
-          "quote": "Cal AI is literally the best calorie tracker. Fastest and most accurate I've ever used."
+          "name": "Selin Professional",
+          "quote": "BiMakas is literally the best platform for beauty professionals. Fastest booking and most reliable service I've ever used."
         }
       ]
     },
     "features": {
-      "title": "What does Cal AI include?",
+      "title": "What does BiMakas include?",
       "items": [
         {
           "title": "Track Your Food With Just a Picture",
@@ -74,8 +74,8 @@
       ]
     },
     "benefits": {
-      "title": "Why choose Cal AI?",
-      "subtitle": "Cal AI is the most advanced calorie tracker.",
+      "title": "Why choose BiMakas?",
+      "subtitle": "BiMakas is the most advanced beauty service platform.",
       "items": [
         {
           "title": "Free up your time",
@@ -135,8 +135,8 @@
     },
     "footer": {
       "brandSection": {
-        "title": "Cal AI",
-        "subtitle": "Download Cal AI"
+        "title": "BiMakas",
+        "subtitle": "Download BiMakas"
       },
       "legalSection": {
         "title": "Legal",
@@ -182,7 +182,7 @@
   },
   "tr": {
     "navigation": {
-      "logo": "Cal AI",
+      "logo": "BiMakas",
       "menuItems": {
         "features": "Özellikler",
         "testimonials": "Referanslar",
@@ -196,45 +196,45 @@
     },
     "hero": {
       "socialProof": "5M kullanıcı tarafından seviliyor ⭐ 4.9 puan",
-      "headline": "Cal AI ile Tanışın",
-      "subheadline": "Sadece bir fotoğrafla kalori takibi yapın",
-      "description": "Cal AI ile tanışın, kolay kalori takibi için AI destekli uygulama. Bir fotoğraf çekin, barkod tarayın veya yemeğinizi tarif edin ve anında kalori ve besin değeri bilgisi alın.",
+      "headline": "BiMakas ile Tanışın",
+      "subheadline": "Güzellik ve bakım hizmetleri bulunduğunuz yerde",
+      "description": "BiMakas ile tanışın, lisanslı berber ve güzellik uzmanlarını evinize, ofisinize veya otelinize getiren anlık randevu platformu. Saniyeler içinde rezervasyon yapın ve salon kalitesini her yerde yaşayın.",
       "cta": {
         "primary": "iOS için İndir",
         "secondary": "Google Play'den İndir"
       }
     },
     "testimonials": {
-      "title": "Favori fitness influencerlarınız tarafından kullanılıyor 👀",
+      "title": "En iyi berber ve güzellik uzmanları tarafından tercih ediliyor 💼✨",
       "items": [
         {
-          "name": "Jeremiah Jones",
-          "quote": "Gece geç saatlerdeki atıştırmalıklarınız için daha sağlıklı seçimler yapın ve kalorilerinizi takip etmek için Cal AI uygulamasını kullanın"
+          "name": "Ahmet Berber",
+          "quote": "BiMakas müşterilerimle bağlantı kurma şeklimi devrim yarattı. Profesyonel, güvenilir ve rezervasyon sistemi sorunsuz."
         },
         {
-          "name": "Dawson Gibbs",
-          "quote": "Cal AI uygulaması ile takip edin, hedefleriniz için kalori takibi yapmıyorsanız her şeyi yanlış yapıyorsunuz."
+          "name": "Elif Kuaför",
+          "quote": "Mobil güzellik uzmanı olarak BiMakas bana her yerde müşterilere tam güven ve güvenlikle hizmet verme esnekliği sağlıyor."
         },
         {
-          "name": "Hussein Farhat",
-          "quote": "Cal AI ile kalori ve makrolarınızı doğru şekilde takip ediyorsanız, neredeyse her şeyi yiyebilirsiniz..."
+          "name": "Murat Styling",
+          "quote": "Platformun doğrulama süreci kaliteli hizmet garantisi veriyor. Müşterilerim kolaylığı, ben de profesyonel desteği seviyorum."
         },
         {
-          "name": "Kadin Kerns",
-          "quote": "Her zamanki gibi güzel görünüyorum ve Cal AI ile kalorilerim de öyle 🔥"
+          "name": "Zeynep Beauty",
+          "quote": "BiMakas müşteri tabanımı önemli ölçüde genişletmeme yardımcı oldu. Canlı takip ve ödeme sistemi harika 🔥"
         },
         {
-          "name": "Brian Wallack",
-          "quote": "Cal AI kelimenin tam anlamıyla her şeyi takip edebilir 🤯"
+          "name": "Can Berber",
+          "quote": "BiMakas kelimenin tam anlamıyla her türlü güzellik hizmeti talebini karşılayabiliyor. Bu sektörde çalışma şeklimizi değiştirdi 🤯"
         },
         {
-          "name": "Alex Eubank",
-          "quote": "Cal AI kelimenin tam anlamıyla en iyi kalori takipçisi. Şimdiye kadar kullandığım en hızlı ve en doğru uygulama."
+          "name": "Selin Professional",
+          "quote": "BiMakas kelimenin tam anlamıyla güzellik uzmanları için en iyi platform. Şimdiye kadar kullandığım en hızlı rezervasyon ve en güvenilir hizmet."
         }
       ]
     },
     "features": {
-      "title": "Cal AI neleri içeriyor?",
+      "title": "BiMakas neleri içeriyor?",
       "items": [
         {
           "title": "Sadece Bir Fotoğrafla Yemeğinizi Takip Edin",
@@ -255,8 +255,8 @@
       ]
     },
     "benefits": {
-      "title": "Neden Cal AI'ı seçmelisiniz?",
-      "subtitle": "Cal AI en gelişmiş kalori takipçisidir.",
+      "title": "Neden BiMakas'ı seçmelisiniz?",
+      "subtitle": "BiMakas en gelişmiş güzellik hizmetleri platformudur.",
       "items": [
         {
           "title": "Zamanınızı kazanın",
@@ -452,25 +452,25 @@
     }
   },
   "brand": {
-    "name": "Cal AI",
+    "name": "BiMakas",
     "tagline": {
-      "en": "AI-Powered Calorie Tracking",
-      "tr": "AI Destekli Kalori Takibi"
+      "en": "On-Demand Beauty & Grooming",
+      "tr": "Anlık Güzellik ve Bakım Hizmetleri"
     },
     "colors": {
-      "primary": "#2A2D3A",
+      "primary": "#ff7778",
       "secondary": "#F59E0B", 
       "accent": "#3B82F6",
       "background": "#FFF8F0",
-      "text": "#000000",
+      "text": "#ff7778",
       "textSecondary": "#6B7280",
       "white": "#FFFFFF"
     },
     "logo": {
-      "url": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/logo-8.png",
+      "url": "/logo.png",
       "alt": {
-        "en": "Cal AI Logo",
-        "tr": "Cal AI Logosu"
+        "en": "BiMakas Logo",
+        "tr": "BiMakas Logosu"
       }
     },
     "appStoreButtons": {
@@ -488,14 +488,14 @@
     },
     "seo": {
       "en": {
-        "title": "Cal AI - AI-Powered Calorie Tracking App",
-        "description": "Track your calories with just a picture using Cal AI. AI-powered app for easy calorie tracking with instant nutritional information.",
-        "keywords": "calorie tracker, AI nutrition, fitness app, diet tracking, weight loss"
+        "title": "BiMakas - On-Demand Beauty & Grooming Services",
+        "description": "Book licensed barbers and beauty professionals to your location with BiMakas. Instant booking, real-time tracking, and salon-grade results at home.",
+        "keywords": "mobile barber, home beauty services, on-demand grooming, beauty app, mobile salon"
       },
       "tr": {
-        "title": "Cal AI - AI Destekli Kalori Takip Uygulaması", 
-        "description": "Cal AI ile sadece bir fotoğrafla kalori takibi yapın. Anında besin değeri bilgisi veren AI destekli kolay kalori takip uygulaması.",
-        "keywords": "kalori takipçisi, AI beslenme, fitness uygulaması, diyet takibi, kilo verme"
+        "title": "BiMakas - Anlık Güzellik ve Bakım Hizmetleri", 
+        "description": "BiMakas ile lisanslı berber ve güzellik uzmanlarını bulunduğunuz yere çağırın. Anında rezervasyon, canlı takip ve salon kalitesi evinizde.",
+        "keywords": "mobil berber, evde güzellik hizmetleri, anlık bakım, güzellik uygulaması, mobil kuaför"
       }
     },
     "features": {

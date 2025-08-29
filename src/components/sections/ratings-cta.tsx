@@ -65,7 +65,7 @@ export default function RatingsCta() {
           ))}
         </div>
 
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 leading-tight" style={{ color: config?.brand?.colors?.text || '#ff7778' }}>
           {t('ratingsCta.title')}
         </h2>
 

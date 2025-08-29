@@ -89,8 +89,8 @@ const TestimonialsGrid = () => {
   return (
     <section id="testimonials" className="py-16 lg:py-20 px-4 lg:px-6 bg-[#FFF8F0]">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-center text-3xl lg:text-4xl font-medium mb-12 text-gray-900">
-          Used by your favorite fitness influencers 💪💪
+        <h2 className="text-center text-3xl lg:text-4xl font-medium mb-12" style={{ color: config?.brand?.colors?.text || '#ff7778' }}>
+          {t('testimonials.title')}
         </h2>
         
         {/* Grid Layout with 16:9 Aspect Ratio Cards */}

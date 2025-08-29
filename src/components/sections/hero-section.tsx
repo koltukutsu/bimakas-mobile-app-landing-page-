@@ -54,11 +54,11 @@ const HeroSection = () => {
               ))}
             </div>
             <span className="text-gray-700">
-              Used by your favorite fitness influencers 👀
+              {t('hero.socialProof')}
             </span>
           </div>
 
-          <h1 className="text-[52px] font-bold leading-tight text-gray-900">
+          <h1 className="text-[52px] font-bold leading-tight" style={{ color: config?.brand?.colors?.text || '#ff7778' }}>
             {t('hero.headline')} <br />
             <span className="font-medium">
               {t('hero.subheadline').split(' ').slice(0, 3).join(' ')}<br />
@@ -89,7 +89,7 @@ const HeroSection = () => {
         <div className="overflow-hidden sm:overflow-visible mx-auto pb-10 sm:pb-0">
           <Image
             src={config?.images?.hero?.mobileMockup || "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/images/hero-image-2.webp?"}
-            alt="Cal AI app preview showing scanner and nutrition screens"
+            alt="BiMakas app preview showing beauty service booking screens"
             width={700}
             height={700}
             className="h-full max-w-[400px] sm:max-w-full"

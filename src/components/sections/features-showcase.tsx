@@ -31,7 +31,7 @@ const FeaturesShowcase = () => {
 
   return (
     <section id="features" className="py-16 lg:py-24 px-6 lg:px-8 bg-[#FFF8F0]">
-      <h2 className="text-center text-4xl mt-16 lg:mt-36 lg:text-[48px] font-medium mb-12 lg:mb-16 text-gray-900">
+      <h2 className="text-center text-4xl mt-16 lg:mt-36 lg:text-[48px] font-medium mb-12 lg:mb-16" style={{ color: config?.brand?.colors?.text || '#ff7778' }}>
         {t('features.title')}
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center max-w-[1400px] mx-auto">

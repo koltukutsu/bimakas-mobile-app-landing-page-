@@ -4,7 +4,7 @@ import { Clock, Zap, TrendingDown } from "lucide-react";
 import { useLanguage } from "@/contexts/language-context";
 
 const BenefitsSection = () => {
-  const { t } = useLanguage();
+  const { t, config } = useLanguage();
 
   // Get benefits from translations
   const benefitItems = t('benefits.items') || [];
@@ -23,7 +23,7 @@ const BenefitsSection = () => {
   return (
     <section className="py-16 lg:py-24 px-6 lg:px-8 bg-[#FFF8F0]">
       <div className="max-w-[1400px] mx-auto text-center">
-        <h2 className="text-4xl lg:text-[48px] font-medium mb-4 text-gray-900">
+        <h2 className="text-4xl lg:text-[48px] font-medium mb-4" style={{ color: config?.brand?.colors?.text || '#ff7778' }}>
           {t('benefits.title')}
         </h2>
         <p className="text-xl text-gray-600 mb-16">

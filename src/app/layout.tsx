@@ -3,8 +3,8 @@ import "./globals.css";
 import { LanguageProvider } from "@/contexts/language-context";
 
 export const metadata: Metadata = {
-  title: "Cal AI - AI-Powered Calorie Training App",
-  description: "Track your calories with just a picture using Cal AI. AI-powered app for easy calorie tracking with instant nutritional information.",
+  title: "BiMakas - On-Demand Beauty & Grooming Services",
+  description: "Book licensed barbers and beauty professionals to your location with BiMakas. Instant booking, real-time tracking, and salon-grade results at home.",
 };
 
 export default function RootLayout({

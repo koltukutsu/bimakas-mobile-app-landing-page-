@@ -26,7 +26,7 @@ const AppStoreButton = () => {
   );
 };
 
-const SocialIcon = ({ platform, href }: { platform: string; href: string }) => {
+const SocialIcon = ({ platform, href, config }: { platform: string; href: string; config: any }) => {
   const getIcon = () => {
     switch (platform) {
       case 'linkedin':
@@ -57,7 +57,8 @@ const SocialIcon = ({ platform, href }: { platform: string; href: string }) => {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="w-10 h-10 bg-gray-800 hover:bg-gray-700 rounded-lg flex items-center justify-center text-white transition-colors duration-200"
+      className="w-10 h-10 rounded-lg flex items-center justify-center text-white transition-colors duration-200 hover:opacity-80"
+      style={{ backgroundColor: config?.brand?.colors?.text || '#ff7778' }}
       aria-label={`Follow us on ${platform}`}
     >
       {getIcon()}
@@ -81,12 +82,12 @@ export default function Footer() {
           {/* Brand Section */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-8 h-8 bg-black rounded-lg flex items-center justify-center">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                </svg>
-              </div>
-              <span className="text-xl font-bold text-gray-900">{footerData.brandSection?.title}</span>
+              <img 
+                src="/logo.png" 
+                alt={config?.brand?.logo?.alt?.en || 'BiMakas Logo'} 
+                className="w-8 h-8"
+              />
+              <span className="text-xl font-bold" style={{ color: config?.brand?.colors?.text || '#ff7778' }}>{footerData.brandSection?.title}</span>
             </div>
             <p className="text-gray-600 text-sm mb-6">{footerData.brandSection?.subtitle}</p>
             
@@ -109,7 +110,7 @@ export default function Footer() {
 
           {/* Legal Section */}
           <div className="md:col-span-1">
-            <h3 className="text-sm font-semibold text-gray-900 mb-4">{footerData.legalSection?.title}</h3>
+            <h3 className="text-sm font-semibold mb-4" style={{ color: config?.brand?.colors?.text || '#ff7778' }}>{footerData.legalSection?.title}</h3>
             <ul className="space-y-3">
               {footerData.legalSection?.links?.map((link: any, index: number) => (
                 <li key={index}>
@@ -126,7 +127,7 @@ export default function Footer() {
 
           {/* Company Section */}
           <div className="md:col-span-1">
-            <h3 className="text-sm font-semibold text-gray-900 mb-4">{footerData.companySection?.title}</h3>
+            <h3 className="text-sm font-semibold mb-4" style={{ color: config?.brand?.colors?.text || '#ff7778' }}>{footerData.companySection?.title}</h3>
             <ul className="space-y-3">
               {footerData.companySection?.links?.map((link: any, index: number) => (
                 <li key={index}>
@@ -152,7 +153,7 @@ export default function Footer() {
           {/* Social Links */}
           <div className="flex gap-3">
             {footerData.socialLinks?.map((social: any, index: number) => (
-              <SocialIcon key={index} platform={social.platform} href={social.href} />
+              <SocialIcon key={index} platform={social.platform} href={social.href} config={config} />
             ))}
           </div>
         </div>
