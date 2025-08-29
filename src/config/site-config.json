@@ -1,0 +1,509 @@
+{
+  "en": {
+    "navigation": {
+      "logo": "Cal AI",
+      "menuItems": {
+        "features": "Features",
+        "testimonials": "Testimonials", 
+        "reviews": "Reviews",
+        "download": "Download"
+      },
+      "languageSelector": {
+        "english": "English",
+        "turkish": "Türkçe"
+      }
+    },
+    "hero": {
+      "socialProof": "Loved by 5M users with ⭐ 4.9 rating",
+      "headline": "Meet Cal AI",
+      "subheadline": "Track your calories with just a picture",
+      "description": "Meet Cal AI, the AI-powered app for easy calorie tracking. Snap a photo, scan a barcode, or describe your meal and get instant calorie and nutrient info.",
+      "cta": {
+        "primary": "Download for iOS",
+        "secondary": "Get it on Google Play"
+      }
+    },
+    "testimonials": {
+      "title": "Used by your favorite fitness influencers 👀",
+      "items": [
+        {
+          "name": "Jeremiah Jones",
+          "quote": "Make a healthier choice for your latenight snack and use the Cal AI app to track your calories"
+        },
+        {
+          "name": "Dawson Gibbs",
+          "quote": "Track with Cal AI app, if you're not tracking your calories while going for your goals then you're doing it all wrong."
+        },
+        {
+          "name": "Hussein Farhat",
+          "quote": "If you're tracking your calories and macros correctly with Cal AI, you can get away with eating almost anything..."
+        },
+        {
+          "name": "Kadin Kerns",
+          "quote": "Looking good as usual and my calories are too with Cal AI 🔥"
+        },
+        {
+          "name": "Brian Wallack",
+          "quote": "Cal AI can literally track anything 🤯"
+        },
+        {
+          "name": "Alex Eubank",
+          "quote": "Cal AI is literally the best calorie tracker. Fastest and most accurate I've ever used."
+        }
+      ]
+    },
+    "features": {
+      "title": "What does Cal AI include?",
+      "items": [
+        {
+          "title": "Track Your Food With Just a Picture",
+          "description": "Snap a photo with Cal AI, and your phone's depth sensor calculates food volume. Our AI then analyzes and breaks down your meal to determine calories, protein, carbs, and fat."
+        },
+        {
+          "title": "Search Our Database of over 1 million foods",
+          "description": "Quickly find and log foods from our extensive database. Search by name, brand, or scan barcodes for instant nutritional information."
+        },
+        {
+          "title": "Complete Progress Tracking and AI suggestions",
+          "description": "Monitor your weight, measurements, and nutrition goals. Get personalized AI suggestions to stay on track and optimize your diet."
+        },
+        {
+          "title": "Keep track of your water and daily exercise",
+          "description": "Log your water intake and daily exercise effortlessly. Cal AI helps you stay hydrated and active, integrating seamlessly with your fitness routine."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Why choose Cal AI?",
+      "subtitle": "Cal AI is the most advanced calorie tracker.",
+      "items": [
+        {
+          "title": "Free up your time",
+          "description": "Cal AI automatically calculates your calories, protein, carbs, and fat. You can also add your own foods and recipes. So no need to calculate calories manually."
+        },
+        {
+          "title": "Integrate with your favorite fitness products",
+          "description": "Cal AI integrates with your favorite fitness products. So you can track your calories, protein, carbs, fat AND exercises."
+        },
+        {
+          "title": "Lose weight effortlessly",
+          "description": "Snap a photo with Cal AI, and your phone's depth sensor calculates food volume. Our AI then analyzes and breaks down your meal to determine calories, protein, carbs, and fat."
+        }
+      ]
+    },
+    "darkMode": {
+      "badge": "New feature",
+      "title": "Dark Mode for a sleek tracking experience! 🌙✨",
+      "subtitle": "New features weekly :)"
+    },
+    "userReviews": {
+      "title": "Thousands of users talk about us",
+      "items": [
+        {
+          "username": "pree.palmer",
+          "quote": "im ngl I've lost 17 lbs with it doesn't need to be exact it's pretty decent"
+        },
+        {
+          "username": "Ordinary Tony",
+          "quote": "IVE BEEN BULKING FOR A YEAR STRAIGHT W APP FR 👏👏👏"
+        },
+        {
+          "username": "2025weightlossa...",
+          "quote": "I love your app it helps me keep track of my food without overthinking everything and gives me a visual of my portions plus it's so aesthetic 💓"
+        },
+        {
+          "username": "Mathias",
+          "quote": "I started to use it yesterday and im already giving it 5⭐️"
+        },
+        {
+          "username": "Ms Nsofor",
+          "quote": "For people that want to control their calories @calai.app is the app for you 🙌🔥"
+        }
+      ]
+    },
+    "ratingsCta": {
+      "title": "Over 100k 5-star ratings",
+      "ratings": {
+        "appStore": "4.8/5",
+        "googlePlay": "4.7/5"
+      },
+      "trial": {
+        "title": "CLAIM YOUR 3-DAY FREE TRIAL",
+        "button": "Claim My Free Trial",
+        "disclaimer": "By signing up, you agree to our Terms of Service and Privacy Policy. No commitment. Cancel anytime."
+      }
+    },
+    "footer": {
+      "brandSection": {
+        "title": "Cal AI",
+        "subtitle": "Download Cal AI"
+      },
+      "legalSection": {
+        "title": "Legal",
+        "links": [
+          {
+            "label": "Privacy Policy",
+            "href": "/privacy"
+          },
+          {
+            "label": "Terms of use",
+            "href": "/terms"
+          }
+        ]
+      },
+      "companySection": {
+        "title": "Company",
+        "links": [
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      },
+      "copyright": "© Copyright 2025. All rights reserved",
+      "socialLinks": [
+        {
+          "platform": "linkedin",
+          "href": "https://linkedin.com/company/calai",
+          "icon": "linkedin"
+        },
+        {
+          "platform": "instagram", 
+          "href": "https://instagram.com/calai.app",
+          "icon": "instagram"
+        },
+        {
+          "platform": "tiktok",
+          "href": "https://tiktok.com/@calai.app", 
+          "icon": "tiktok"
+        }
+      ]
+    }
+  },
+  "tr": {
+    "navigation": {
+      "logo": "Cal AI",
+      "menuItems": {
+        "features": "Özellikler",
+        "testimonials": "Referanslar",
+        "reviews": "Yorumlar",
+        "download": "İndir"
+      },
+      "languageSelector": {
+        "english": "İngilizce",
+        "turkish": "Türkçe"
+      }
+    },
+    "hero": {
+      "socialProof": "5M kullanıcı tarafından seviliyor ⭐ 4.9 puan",
+      "headline": "Cal AI ile Tanışın",
+      "subheadline": "Sadece bir fotoğrafla kalori takibi yapın",
+      "description": "Cal AI ile tanışın, kolay kalori takibi için AI destekli uygulama. Bir fotoğraf çekin, barkod tarayın veya yemeğinizi tarif edin ve anında kalori ve besin değeri bilgisi alın.",
+      "cta": {
+        "primary": "iOS için İndir",
+        "secondary": "Google Play'den İndir"
+      }
+    },
+    "testimonials": {
+      "title": "Favori fitness influencerlarınız tarafından kullanılıyor 👀",
+      "items": [
+        {
+          "name": "Jeremiah Jones",
+          "quote": "Gece geç saatlerdeki atıştırmalıklarınız için daha sağlıklı seçimler yapın ve kalorilerinizi takip etmek için Cal AI uygulamasını kullanın"
+        },
+        {
+          "name": "Dawson Gibbs",
+          "quote": "Cal AI uygulaması ile takip edin, hedefleriniz için kalori takibi yapmıyorsanız her şeyi yanlış yapıyorsunuz."
+        },
+        {
+          "name": "Hussein Farhat",
+          "quote": "Cal AI ile kalori ve makrolarınızı doğru şekilde takip ediyorsanız, neredeyse her şeyi yiyebilirsiniz..."
+        },
+        {
+          "name": "Kadin Kerns",
+          "quote": "Her zamanki gibi güzel görünüyorum ve Cal AI ile kalorilerim de öyle 🔥"
+        },
+        {
+          "name": "Brian Wallack",
+          "quote": "Cal AI kelimenin tam anlamıyla her şeyi takip edebilir 🤯"
+        },
+        {
+          "name": "Alex Eubank",
+          "quote": "Cal AI kelimenin tam anlamıyla en iyi kalori takipçisi. Şimdiye kadar kullandığım en hızlı ve en doğru uygulama."
+        }
+      ]
+    },
+    "features": {
+      "title": "Cal AI neleri içeriyor?",
+      "items": [
+        {
+          "title": "Sadece Bir Fotoğrafla Yemeğinizi Takip Edin",
+          "description": "Cal AI ile bir fotoğraf çekin, telefonunuzun derinlik sensörü yemek hacmini hesaplar. AI'mız daha sonra yemeğinizi analiz eder ve kalori, protein, karbonhidrat ve yağ miktarını belirler."
+        },
+        {
+          "title": "1 Milyondan Fazla Yiyecek İçeren Veritabanımızda Arama Yapın",
+          "description": "Kapsamlı veritabanımızdan yiyecekleri hızlıca bulun ve kaydedin. İsim, marka ile arayın veya anında besin bilgisi için barkod tarayın."
+        },
+        {
+          "title": "Eksiksiz İlerleme Takibi ve AI Önerileri",
+          "description": "Kilonuzu, ölçülerinizi ve beslenme hedeflerinizi takip edin. Yolda kalmak ve diyetinizi optimize etmek için kişiselleştirilmiş AI önerileri alın."
+        },
+        {
+          "title": "Su Tüketiminizi ve Günlük Egzersizisinizi Takip Edin",
+          "description": "Su tüketiminizi ve günlük egzersizinizi zahmetsizce kaydedin. Cal AI hidrasyon ve aktif kalmanıza yardımcı olur, fitness rutininizle sorunsuz entegre olur."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Neden Cal AI'ı seçmelisiniz?",
+      "subtitle": "Cal AI en gelişmiş kalori takipçisidir.",
+      "items": [
+        {
+          "title": "Zamanınızı kazanın",
+          "description": "Cal AI kalori, protein, karbonhidrat ve yağınızı otomatik olarak hesaplar. Kendi yiyeceklerinizi ve tariflerinizi de ekleyebilirsiniz. Böylece kalori hesabı yapmaya gerek kalmaz."
+        },
+        {
+          "title": "Favori fitness ürünlerinizle entegre olun",
+          "description": "Cal AI favori fitness ürünlerinizle entegre olur. Böylece kalori, protein, karbonhidrat, yağ VE egzersizlerinizi takip edebilirsiniz."
+        },
+        {
+          "title": "Zahmetsizce kilo verin",
+          "description": "Cal AI ile bir fotoğraf çekin, telefonunuzun derinlik sensörü yemek hacmini hesaplar. AI'mız daha sonra yemeğinizi analiz eder ve kalori, protein, karbonhidrat ve yağ miktarını belirler."
+        }
+      ]
+    },
+    "darkMode": {
+      "badge": "Yeni özellik",
+      "title": "Şık takip deneyimi için Karanlık Mod! 🌙✨",
+      "subtitle": "Her hafta yeni özellikler :)"
+    },
+    "userReviews": {
+      "title": "Binlerce kullanıcı hakkımızda konuşuyor",
+      "items": [
+        {
+          "username": "pree.palmer",
+          "quote": "yalan söylemeyeceğim, bununla 17 pound verdim tam olması gerekmiyor oldukça iyi"
+        },
+        {
+          "username": "Ordinary Tony",
+          "quote": "BİR YILDIR UYGULAMAYLA BULK YAPIYORUM GERÇEKTEN 👏👏👏"
+        },
+        {
+          "username": "2025weightlossa...",
+          "quote": "Uygulamanızı seviyorum, her şeyi fazla düşünmeden yemeğimi takip etmeme yardımcı oluyor ve porsiyonlarımın görselini veriyor ayrıca çok estetik 💓"
+        },
+        {
+          "username": "Mathias",
+          "quote": "Dün kullanmaya başladım ve şimdiden 5⭐️ veriyorum"
+        },
+        {
+          "username": "Ms Nsofor",
+          "quote": "Kalorilerini kontrol etmek isteyen insanlar için @calai.app sizin için uygulama 🙌🔥"
+        }
+      ]
+    },
+    "ratingsCta": {
+      "title": "100k'dan fazla 5 yıldızlı değerlendirme",
+      "ratings": {
+        "appStore": "4.8/5",
+        "googlePlay": "4.7/5"
+      },
+      "trial": {
+        "title": "3 GÜNLÜK ÜCRETSİZ DENEMENİZİ TALEİP EDİN",
+        "button": "Ücretsiz Denememi Talep Et",
+        "disclaimer": "Kaydolarak Hizmet Şartları ve Gizlilik Politikamızı kabul etmiş olursunuz. Taahhüt yok. İstediğiniz zaman iptal edin."
+      }
+    },
+    "footer": {
+      "brandSection": {
+        "title": "Cal AI",
+        "subtitle": "Cal AI'yi İndir"
+      },
+      "legalSection": {
+        "title": "Yasal",
+        "links": [
+          {
+            "label": "Gizlilik Politikası",
+            "href": "/privacy"
+          },
+          {
+            "label": "Kullanım Şartları",
+            "href": "/terms"
+          }
+        ]
+      },
+      "companySection": {
+        "title": "Şirket",
+        "links": [
+          {
+            "label": "İletişim",
+            "href": "/contact"
+          }
+        ]
+      },
+      "copyright": "© Telif Hakkı 2025. Tüm hakları saklıdır",
+      "socialLinks": [
+        {
+          "platform": "linkedin",
+          "href": "https://linkedin.com/company/calai",
+          "icon": "linkedin"
+        },
+        {
+          "platform": "instagram", 
+          "href": "https://instagram.com/calai.app",
+          "icon": "instagram"
+        },
+        {
+          "platform": "tiktok",
+          "href": "https://tiktok.com/@calai.app", 
+          "icon": "tiktok"
+        }
+      ]
+    }
+  },
+  "images": {
+    "hero": {
+      "userAvatars": [
+        "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/used-by-1-1.png",
+        "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/used-by-2-2.png",
+        "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/used-by-3-3.png"
+      ],
+      "mobileMockup": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/images/hero-image-2.webp"
+    },
+    "testimonials": {
+      "influencers": [
+        {
+          "name": "Jeremiah Jones",
+          "image": "https://images.unsplash.com/photo-1567515004624-219c11d31f2e?w=400&h=600&fit=crop&crop=face"
+        },
+        {
+          "name": "Dawson Gibbs", 
+          "image": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=400&h=500&fit=crop&crop=face"
+        },
+        {
+          "name": "Hussein Farhat",
+          "image": "https://images.unsplash.com/photo-1583341612074-ccea5cd64f6a?w=400&h=480&fit=crop&crop=faceface"
+        },
+        {
+          "name": "Kadin Kerns",
+          "image": "https://images.unsplash.com/photo-1583341612074-ccea5cd64f6a?w=400&h=480&fit=crop&crop=face"
+        },
+        {
+          "name": "Brian Wallack",
+          "image": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=400&h=520&fit=crop&crop=face"
+        },
+        {
+          "name": "Alex Eubank",
+          "image": "https://images.unsplash.com/photo-1583341612074-ccea5cd64f6a?w=400&h=480&fit=crop&crop=face"
+        }
+      ]
+    },
+    "features": {
+      "mobileScreens": [
+        {
+          "title": "Photo Scanning",
+          "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&h=600&fit=crop"
+        },
+        {
+          "title": "Database Search",
+          "image": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/images/hero-image-2.webp"
+        },
+        {
+          "title": "Progress Tracking",
+          "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=300&h=600&fit=crop"
+        },
+        {
+          "title": "Water & Exercise",
+          "image": "https://images.unsplash.com/photo-1434682881908-b43d0467b798?w=300&h=600&fit=crop"
+        }
+      ]
+    },
+    "userReviews": {
+      "profiles": [
+        "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/review1-4.jpeg",
+        "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/review2-5.jpg",
+        "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/review3-6.jpeg",
+        "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/review4-7.jpeg"
+      ]
+    },
+    "ratingsCta": {
+      "laurelWreath": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/svgs/wreath-2.svg",
+      "logo": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/logo-8.png",
+      "mobileMockup": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/images/hero-image-2.webp"
+    },
+    "darkMode": {
+      "mobileMockup": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=300&h=600&fit=crop"
+    }
+  },
+  "links": {
+    "appStore": {
+      "ios": "https://apps.apple.com/app/cal-ai",
+      "android": "https://play.google.com/store/apps/details?id=com.calai"
+    },
+    "social": {
+      "instagram": "https://instagram.com/calai.app",
+      "tiktok": "https://tiktok.com/@calai.app",
+      "twitter": "https://twitter.com/calai_app"
+    },
+    "legal": {
+      "termsOfService": "/terms",
+      "privacyPolicy": "/privacy",
+      "support": "/support"
+    }
+  },
+  "brand": {
+    "name": "Cal AI",
+    "tagline": {
+      "en": "AI-Powered Calorie Tracking",
+      "tr": "AI Destekli Kalori Takibi"
+    },
+    "colors": {
+      "primary": "#2A2D3A",
+      "secondary": "#F59E0B", 
+      "accent": "#3B82F6",
+      "background": "#FFF8F0",
+      "text": "#000000",
+      "textSecondary": "#6B7280",
+      "white": "#FFFFFF"
+    },
+    "logo": {
+      "url": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/logo-8.png",
+      "alt": {
+        "en": "Cal AI Logo",
+        "tr": "Cal AI Logosu"
+      }
+    },
+    "appStoreButtons": {
+      "googlePlay": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/images/googleplay-1.png",
+      "appStore": "https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred.png"
+    }
+  },
+  "configuration": {
+    "defaultLanguage": "en",
+    "availableLanguages": ["en", "tr"],
+    "theme": "light",
+    "analytics": {
+      "googleAnalyticsId": "G-XXXXXXXXXX",
+      "facebookPixelId": "XXXXXXXXXX"
+    },
+    "seo": {
+      "en": {
+        "title": "Cal AI - AI-Powered Calorie Tracking App",
+        "description": "Track your calories with just a picture using Cal AI. AI-powered app for easy calorie tracking with instant nutritional information.",
+        "keywords": "calorie tracker, AI nutrition, fitness app, diet tracking, weight loss"
+      },
+      "tr": {
+        "title": "Cal AI - AI Destekli Kalori Takip Uygulaması", 
+        "description": "Cal AI ile sadece bir fotoğrafla kalori takibi yapın. Anında besin değeri bilgisi veren AI destekli kolay kalori takip uygulaması.",
+        "keywords": "kalori takipçisi, AI beslenme, fitness uygulaması, diyet takibi, kilo verme"
+      }
+    },
+    "features": {
+      "languageSelector": true,
+      "darkModeToggle": false,
+      "testimonialCarousel": true,
+      "mobileResponsive": true,
+      "animations": true
+    }
+  }
+}
