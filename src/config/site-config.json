@@ -14,10 +14,10 @@
       }
     },
     "hero": {
-      "socialProof": "Loved by 5M users with ⭐ 4.9 rating",
+      "socialProof": "Loved by many users with ⭐ 4.9 rating",
       "headline": "Meet BiMakas",
-      "subheadline": "Beauty & grooming services at your location",
-      "description": "Meet BiMakas, the on-demand platform that brings licensed barbers and beauty professionals to your home, office, or hotel. Book instantly and enjoy salon-grade results wherever you are.",
+      "subheadline": "Beauty and grooming services at your location",
+      "description": "BiMakas is an on-demand platform that brings licensed barbers and beauty professionals to your home, office, or hotel. Book instantly and enjoy salon-quality results wherever you are.",
       "cta": {
         "primary": "Download for iOS",
         "secondary": "Get it on Google Play"
@@ -56,45 +56,45 @@
       "title": "What does BiMakas include?",
       "items": [
         {
-          "title": "Track Your Food With Just a Picture",
-          "description": "Snap a photo with Cal AI, and your phone's depth sensor calculates food volume. Our AI then analyzes and breaks down your meal to determine calories, protein, carbs, and fat."
+          "title": "Call the Nearest Barber or Hairdresser to Your Location",
+          "description": "With the app, you can call the nearest barber or hairdresser to your location and receive hair, beard, and beauty care services wherever you want."
         },
         {
-          "title": "Search Our Database of over 1 million foods",
-          "description": "Quickly find and log foods from our extensive database. Search by name, brand, or scan barcodes for instant nutritional information."
+          "title": "Wide Range of Services",
+          "description": "BiMakas is not limited to just haircuts; it also offers many beauty and personal care services such as blow-dry, keratin treatment, and skincare."
         },
         {
-          "title": "Complete Progress Tracking and AI suggestions",
-          "description": "Monitor your weight, measurements, and nutrition goals. Get personalized AI suggestions to stay on track and optimize your diet."
+          "title": "Easy Booking and Instant Requests",
+          "description": "Choose the type of service, check prices and user reviews. You can book for a later date or request an immediate appointment."
         },
         {
-          "title": "Keep track of your water and daily exercise",
-          "description": "Log your water intake and daily exercise effortlessly. Cal AI helps you stay hydrated and active, integrating seamlessly with your fitness routine."
+          "title": "Live Tracking and Secure Payment",
+          "description": "Track your professional's arrival in real time on the map and make secure payments directly through the app."
         }
       ]
     },
     "benefits": {
       "title": "Why choose BiMakas?",
-      "subtitle": "BiMakas is the most advanced beauty service platform.",
+      "subtitle": "BiMakas is the most advanced beauty and grooming service platform.",
       "items": [
         {
-          "title": "Free up your time",
-          "description": "Cal AI automatically calculates your calories, protein, carbs, and fat. You can also add your own foods and recipes. So no need to calculate calories manually."
+          "title": "Save Your Time",
+          "description": "BiMakas brings barber and beauty services right to you, eliminating the need to search for salons. No matter where you are, professional care is just a tap away."
         },
         {
-          "title": "Integrate with your favorite fitness products",
-          "description": "Cal AI integrates with your favorite fitness products. So you can track your calories, protein, carbs, fat AND exercises."
+          "title": "Integrated with Your Favorite Beauty Services",
+          "description": "Whether it's a haircut, beard grooming, or beauty treatments… BiMakas brings together professionals tailored to your needs on one platform."
         },
         {
-          "title": "Lose weight effortlessly",
-          "description": "Snap a photo with Cal AI, and your phone's depth sensor calculates food volume. Our AI then analyzes and breaks down your meal to determine calories, protein, carbs, and fat."
+          "title": "Enjoy Care with Ease",
+          "description": "At home, at work, or in your hotel — get your treatments done effortlessly by professionals who come to you, without compromising your comfort."
         }
       ]
     },
     "darkMode": {
       "badge": "New feature",
-      "title": "Dark Mode for a sleek tracking experience! 🌙✨",
-      "subtitle": "New features weekly :)"
+      "title": "Get Paid as a Barber & Stylist! 🌙✨",
+      "subtitle": "Receive your payment securely every time you provide a service."
     },
     "userReviews": {
       "title": "Thousands of users talk about us",
@@ -122,7 +122,7 @@
       ]
     },
     "ratingsCta": {
-      "title": "Over 100k 5-star ratings",
+      "title": "A lot of 5-star ratings from the test users",
       "ratings": {
         "appStore": "4.8/5",
         "googlePlay": "4.7/5"
@@ -164,17 +164,17 @@
       "socialLinks": [
         {
           "platform": "linkedin",
-          "href": "https://linkedin.com/company/calai",
+          "href": "https://linkedin.com/company/bimakas",
           "icon": "linkedin"
         },
         {
           "platform": "instagram", 
-          "href": "https://instagram.com/calai.app",
+          "href": "https://instagram.com/bimakas.app",
           "icon": "instagram"
         },
         {
           "platform": "tiktok",
-          "href": "https://tiktok.com/@calai.app", 
+          "href": "https://tiktok.com/@bimakas.app", 
           "icon": "tiktok"
         }
       ]
@@ -195,10 +195,10 @@
       }
     },
     "hero": {
-      "socialProof": "5M kullanıcı tarafından seviliyor ⭐ 4.9 puan",
+      "socialProof": "Kullanıcılar tarafından seviliyor ⭐ 4.9 puan",
       "headline": "BiMakas ile Tanışın",
       "subheadline": "Güzellik ve bakım hizmetleri bulunduğunuz yerde",
-      "description": "BiMakas ile tanışın, lisanslı berber ve güzellik uzmanlarını evinize, ofisinize veya otelinize getiren anlık randevu platformu. Saniyeler içinde rezervasyon yapın ve salon kalitesini her yerde yaşayın.",
+      "description": "BiMakas, lisanslı berberleri ve güzellik uzmanlarını evinize, ofisinize veya otelinize getiren anlık hizmet platformudur. Hemen randevu alın ve nerede olursanız olun salon kalitesinde sonuçların tadını çıkarın.",
       "cta": {
         "primary": "iOS için İndir",
         "secondary": "Google Play'den İndir"
@@ -234,48 +234,48 @@
       ]
     },
     "features": {
-      "title": "BiMakas neleri içeriyor?",
+      "title": "BiMakas neleri içerir?",
       "items": [
         {
-          "title": "Sadece Bir Fotoğrafla Yemeğinizi Takip Edin",
-          "description": "Cal AI ile bir fotoğraf çekin, telefonunuzun derinlik sensörü yemek hacmini hesaplar. AI'mız daha sonra yemeğinizi analiz eder ve kalori, protein, karbonhidrat ve yağ miktarını belirler."
+          "title": "Konumunuza En Yakın Berber ve Kuaförü Çağırın",
+          "description": "Uygulama ile bulunduğunuz yere en yakın berber ya da kuaförü çağırabilir, saç, sakal ve güzellik bakım hizmetlerini istediğiniz yerde alabilirsiniz."
         },
         {
-          "title": "1 Milyondan Fazla Yiyecek İçeren Veritabanımızda Arama Yapın",
-          "description": "Kapsamlı veritabanımızdan yiyecekleri hızlıca bulun ve kaydedin. İsim, marka ile arayın veya anında besin bilgisi için barkod tarayın."
+          "title": "Geniş Hizmet Yelpazesi",
+          "description": "BiMakas, sadece saç kesimi hizmetleriyle sınırlı kalmaz; fön, keratin, cilt bakımı gibi birçok güzellik ve kişisel bakım hizmeti de sunar."
         },
         {
-          "title": "Eksiksiz İlerleme Takibi ve AI Önerileri",
-          "description": "Kilonuzu, ölçülerinizi ve beslenme hedeflerinizi takip edin. Yolda kalmak ve diyetinizi optimize etmek için kişiselleştirilmiş AI önerileri alın."
+          "title": "Kolay Randevu ve Anlık Talep",
+          "description": "Hizmet türünü seçin, fiyatları ve kullanıcı yorumlarını inceleyin. Dilerseniz ileri tarihli randevu alın ya da hemen talepte bulunun."
         },
         {
-          "title": "Su Tüketiminizi ve Günlük Egzersizisinizi Takip Edin",
-          "description": "Su tüketiminizi ve günlük egzersizinizi zahmetsizce kaydedin. Cal AI hidrasyon ve aktif kalmanıza yardımcı olur, fitness rutininizle sorunsuz entegre olur."
+          "title": "Canlı Takip ve Güvenli Ödeme",
+          "description": "Harita üzerinden uzmanınızın gelişini anlık takip edin ve ödemelerinizi güvenli bir şekilde uygulama üzerinden yapın."
         }
       ]
     },
     "benefits": {
       "title": "Neden BiMakas'ı seçmelisiniz?",
-      "subtitle": "BiMakas en gelişmiş güzellik hizmetleri platformudur.",
+      "subtitle": "BiMakas, en gelişmiş güzellik ve bakım hizmeti platformudur.",
       "items": [
         {
-          "title": "Zamanınızı kazanın",
-          "description": "Cal AI kalori, protein, karbonhidrat ve yağınızı otomatik olarak hesaplar. Kendi yiyeceklerinizi ve tariflerinizi de ekleyebilirsiniz. Böylece kalori hesabı yapmaya gerek kalmaz."
+          "title": "Zamanınızı sizde kalsın",
+          "description": "Kuaför ve bakım hizmetlerini ayağınıza getirerek salon aramakla vakit kaybetmenizi önler. Nerede olursanız olun, profesyonel hizmet artık sadece bir dokunuş uzağınızda."
         },
         {
-          "title": "Favori fitness ürünlerinizle entegre olun",
-          "description": "Cal AI favori fitness ürünlerinizle entegre olur. Böylece kalori, protein, karbonhidrat, yağ VE egzersizlerinizi takip edebilirsiniz."
+          "title": "Favori bakım hizmetlerinizle entegre olun",
+          "description": "İster saç kesimi, ister sakal, ister güzellik bakımı olsun… BiMakas, ihtiyaçlarınıza uygun profesyonelleri tek bir platformda buluşturur."
         },
         {
-          "title": "Zahmetsizce kilo verin",
-          "description": "Cal AI ile bir fotoğraf çekin, telefonunuzun derinlik sensörü yemek hacmini hesaplar. AI'mız daha sonra yemeğinizi analiz eder ve kalori, protein, karbonhidrat ve yağ miktarını belirler."
+          "title": "Rahatlıkla bakım yaptırın",
+          "description": "Evde, işte ya da otelde — neredeyseniz oraya gelen uzmanlarla konforunuzdan ödün vermeden bakımınızı kolayca yaptırabilirsiniz."
         }
       ]
     },
     "darkMode": {
       "badge": "Yeni özellik",
-      "title": "Şık takip deneyimi için Karanlık Mod! 🌙✨",
-      "subtitle": "Her hafta yeni özellikler :)"
+      "title": "Kuaför & Berberler için Ödeme Alma! 🌙✨",
+      "subtitle": "Her hizmet verdiğinizde ödemenizi güvenle alabilirsiniz."
     },
     "userReviews": {
       "title": "Binlerce kullanıcı hakkımızda konuşuyor",
@@ -303,7 +303,7 @@
       ]
     },
     "ratingsCta": {
-      "title": "100k'dan fazla 5 yıldızlı değerlendirme",
+      "title": "Test kullanıcıları tarafından 5 yıldızlı değerlendirme",
       "ratings": {
         "appStore": "4.8/5",
         "googlePlay": "4.7/5"
@@ -316,8 +316,8 @@
     },
     "footer": {
       "brandSection": {
-        "title": "Cal AI",
-        "subtitle": "Cal AI'yi İndir"
+        "title": "BiMakas",
+        "subtitle": "BiMakas'ı İndir"
       },
       "legalSection": {
         "title": "Yasal",
@@ -345,17 +345,17 @@
       "socialLinks": [
         {
           "platform": "linkedin",
-          "href": "https://linkedin.com/company/calai",
+          "href": "https://linkedin.com/company/bimakas",
           "icon": "linkedin"
         },
         {
           "platform": "instagram", 
-          "href": "https://instagram.com/calai.app",
+          "href": "https://instagram.com/bimakas.app",
           "icon": "instagram"
         },
         {
           "platform": "tiktok",
-          "href": "https://tiktok.com/@calai.app", 
+          "href": "https://tiktok.com/@bimakas.app", 
           "icon": "tiktok"
         }
       ]
@@ -368,7 +368,7 @@
         "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/used-by-2-2.png",
         "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/used-by-3-3.png"
       ],
-      "mobileMockup": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/images/hero-image-2.webp"
+      "mobileMockup": "/images/header.png"
     },
     "testimonials": {
       "influencers": [
@@ -401,20 +401,20 @@
     "features": {
       "mobileScreens": [
         {
-          "title": "Photo Scanning",
-          "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&h=600&fit=crop"
+          "title": "Konumunuza en yakın berber ve kuaförü çağırın",
+          "image": "/images/location.png"
         },
         {
-          "title": "Database Search",
-          "image": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/images/hero-image-2.webp"
+          "title": "Geniş hizmet yelpazesi",
+          "image": "/images/services.png"
         },
         {
-          "title": "Progress Tracking",
-          "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=300&h=600&fit=crop"
+          "title": "Kolay randevu ve anlık talep",
+          "image": "/images/reservation.png"
         },
         {
-          "title": "Water & Exercise",
-          "image": "https://images.unsplash.com/photo-1434682881908-b43d0467b798?w=300&h=600&fit=crop"
+          "title": "Canlı takip ve güvenli ödeme",
+          "image": "/images/live.png"
         }
       ]
     },
@@ -432,18 +432,18 @@
       "mobileMockup": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/images/hero-image-2.webp"
     },
     "darkMode": {
-      "mobileMockup": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=300&h=600&fit=crop"
+      "mobileMockup": "/images/payment.png"
     }
   },
   "links": {
     "appStore": {
-      "ios": "https://apps.apple.com/app/cal-ai",
-      "android": "https://play.google.com/store/apps/details?id=com.calai"
+      "ios": "https://apps.apple.com/app/bimakas",
+      "android": "https://play.google.com/store/apps/details?id=com.bimakas"
     },
     "social": {
-      "instagram": "https://instagram.com/calai.app",
-      "tiktok": "https://tiktok.com/@calai.app",
-      "twitter": "https://twitter.com/calai_app"
+      "instagram": "https://instagram.com/bimakas.app",
+      "tiktok": "https://tiktok.com/@bimakas.app",
+      "twitter": "https://twitter.com/bimakas_app"
     },
     "legal": {
       "termsOfService": "/terms",
@@ -475,7 +475,7 @@
     },
     "appStoreButtons": {
       "googlePlay": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/images/googleplay-1.png",
-      "appStore": "https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred.png"
+      "appStore": "https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
     }
   },
   "configuration": {

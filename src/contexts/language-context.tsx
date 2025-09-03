@@ -22,7 +22,7 @@ const LanguageContext = createContext<LanguageContextValue | undefined>(undefine
 
 // Provider component
 export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
-  const [currentLanguage, setCurrentLanguage] = useState<LanguageCode>("en");
+  const [currentLanguage, setCurrentLanguage] = useState<LanguageCode>("tr");
 
   // Load language from localStorage on mount
   useEffect(() => {

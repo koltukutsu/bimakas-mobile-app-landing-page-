@@ -14,14 +14,12 @@ const AppStoreButton = () => {
       className="block transition-transform hover:scale-105"
       aria-label="Download on the App Store"
     >
-      <svg width="135" height="40" viewBox="0 0 135 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect width="135" height="40" rx="7.4" fill="black"/>
-        <g transform="translate(15, 8)">
-          <path d="M7.4,7.4C5.7,7.4,4.2,7.9,3,8.7C1.8,9.5,0.9,10.6,0.3,12c-0.1,0.2-0.1,0.3-0.1,0.5c0,0.2,0,0.3,0.1,0.5c-0.4,1.8,0.3,3.6,1.4,4.9c0.9,1.1,2.2,1.9,3.6,2.1c0.1,0,0.2,0,0.3,0c1.3,0,2.6-0.6,3.5-1.6c1.1-1.2,1.7-2.7,1.6-4.3c0.1-0.1,0.1-0.2,0-0.3c0,0,0-0.1,0-0.1c-0.1-1-0.5-2-1.2-2.9C8.9,7.6,8.2,7.4,7.4,7.4z M6.4,3.2C6.5,4.9,5.2,6.4,3.6,6.5c-0.1,0-0.1,0-0.2,0C1.8,6.3,0.5,4.9,0.5,3.2c0-0.1,0-0.1,0-0.2C0.6,1.4,2,0.1,3.7,0c0.1,0,0.1,0,0.2,0C5.4,0.2,6.7,1.6,6.4,3.2z" fill="white"/>
-          <text fontFamily="Inter, sans-serif" fill="white" fontSize="9" y="8" x="22">Download on the</text>
-          <text fontFamily="Inter, sans-serif" fill="white" fontSize="17" fontWeight="600" y="25" x="22">App Store</text>
-        </g>
-      </svg>
+      <img
+        src={config?.brand?.appStoreButtons?.appStore || "https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"}
+        alt="Download on the App Store"
+        width={135}
+        height={40}
+      />
     </a>
   );
 };

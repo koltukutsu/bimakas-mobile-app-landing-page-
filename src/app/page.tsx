@@ -14,7 +14,7 @@ export default function HomePage() {
       <Navbar />
       <main className="min-h-screen bg-[#FFF8F0] pt-16">
         <HeroSection />
-        <TestimonialsGrid />
+        {/* <TestimonialsGrid /> */}
         <FeaturesShowcase />
         <BenefitsSection />
         <DarkModeFeature />
