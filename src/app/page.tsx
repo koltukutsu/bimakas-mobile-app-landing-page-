@@ -18,7 +18,7 @@ export default function HomePage() {
         <FeaturesShowcase />
         <BenefitsSection />
         <DarkModeFeature />
-        <UserReviews />
+        {/* <UserReviews /> */}
         <RatingsCta />
       </main>
       <Footer />
