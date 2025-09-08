@@ -6,7 +6,24 @@ import { Star } from 'lucide-react';
 import { useLanguage } from '@/contexts/language-context';
 
 const AppStoreButton = () => {
-  const { config } = useLanguage();
+  const { config, currentLanguage } = useLanguage();
+  
+  const isInDev = config?.configuration?.isAppStoreInDev;
+  
+  if (isInDev) {
+    return (
+      <div className="w-[135px] h-[40px] bg-gray-300 rounded-lg flex items-center justify-center cursor-not-allowed border border-gray-400">
+        <div className="flex items-center space-x-2">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" className="text-gray-600">
+            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" fill="currentColor"/>
+          </svg>
+          <span className="text-gray-600 text-xs font-medium">
+            {config?.comingSoon?.appStore?.[currentLanguage] || "Çok Yakında"}
+          </span>
+        </div>
+      </div>
+    );
+  }
   
   return (
     <a
@@ -25,7 +42,7 @@ const AppStoreButton = () => {
 };
 
 export default function RatingsCta() {
-  const { t, config } = useLanguage();
+  const { t, config, currentLanguage } = useLanguage();
 
   return (
     <section id="download" className="relative overflow-hidden bg-[#F5F0E8] py-16 text-center text-gray-900 sm:py-20 lg:py-24">
@@ -86,17 +103,30 @@ export default function RatingsCta() {
         {/* App Store Buttons */}
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
           <AppStoreButton />
-          <a 
-            href={config?.links?.appStore?.android || "https://play.google.com/store/apps/details?id=com.viraldevelopment.calai"} 
-            className="block transition-transform hover:scale-105"
-          >
-            <Image
-              src={config?.brand?.appStoreButtons?.googlePlay || "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/images/googleplay-1.png?"}
-              alt="Get it on Google Play"
-              width={135}
-              height={40}
-            />
-          </a>
+          {config?.configuration?.isGooglePlayInDev ? (
+            <div className="w-[135px] h-[40px] bg-gray-300 rounded-lg flex items-center justify-center cursor-not-allowed border border-gray-400">
+              <div className="flex items-center space-x-2">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" className="text-gray-600">
+                  <path d="M3 20.5v-17c0-.35.18-.68.49-.86L12 12l-8.51 9.36c-.31-.18-.49-.51-.49-.86zM14.73 12.94L12 15.68 4.51 2.14c.07-.04.15-.08.24-.1L14.73 12.94zM19.49 11.05L16.25 9.21 13.06 12l3.19 2.79 3.24-1.84c.51-.29.51-1.06 0-1.35zM12 8.32L14.73 11.06 4.75 21.96c-.09-.02-.17-.06-.24-.1L12 8.32z"/>
+                </svg>
+                <span className="text-gray-600 text-xs font-medium">
+                  {config?.comingSoon?.googlePlay?.[currentLanguage] || "Çok Yakında"}
+                </span>
+              </div>
+            </div>
+          ) : (
+            <a 
+              href={config?.links?.appStore?.android || "https://play.google.com/store/apps/details?id=com.viraldevelopment.calai"} 
+              className="block transition-transform hover:scale-105"
+            >
+              <Image
+                src={config?.brand?.appStoreButtons?.googlePlay || "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/images/googleplay-1.png?"}
+                alt="Get it on Google Play"
+                width={135}
+                height={40}
+              />
+            </a>
+          )}
         </div>
       </div>
     </section>

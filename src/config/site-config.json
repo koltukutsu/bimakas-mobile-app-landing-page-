@@ -361,6 +361,28 @@
       ]
     }
   },
+  "cta": {
+    "enrollment": {
+      "en": {
+        "text": "Start Service Now",
+        "url": "https://listelee.vercel.app/kuaforun-gelsin"
+      },
+      "tr": {
+        "text": "Hemen Hizmet Ver", 
+        "url": "https://listelee.vercel.app/kuaforun-gelsin"
+      }
+    }
+  },
+  "comingSoon": {
+    "appStore": {
+      "en": "Çok Yakında",
+      "tr": "Çok Yakında"
+    },
+    "googlePlay": {
+      "en": "Çok Yakında", 
+      "tr": "Çok Yakında"
+    }
+  },
   "images": {
     "hero": {
       "userAvatars": [
@@ -482,6 +504,8 @@
     "defaultLanguage": "en",
     "availableLanguages": ["en", "tr"],
     "theme": "light",
+    "isGooglePlayInDev": true,
+    "isAppStoreInDev": true,
     "analytics": {
       "googleAnalyticsId": "G-XXXXXXXXXX",
       "facebookPixelId": "XXXXXXXXXX"
