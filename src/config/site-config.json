@@ -1,0 +1,533 @@
+{
+  "en": {
+    "navigation": {
+      "logo": "BiMakas",
+      "menuItems": {
+        "features": "Features",
+        "testimonials": "Testimonials", 
+        "reviews": "Reviews",
+        "download": "Download"
+      },
+      "languageSelector": {
+        "english": "English",
+        "turkish": "Türkçe"
+      }
+    },
+    "hero": {
+      "socialProof": "Loved by many users with ⭐ 4.9 rating",
+      "headline": "Meet BiMakas",
+      "subheadline": "Beauty and grooming services at your location",
+      "description": "BiMakas is an on-demand platform that brings licensed barbers and beauty professionals to your home, office, or hotel. Book instantly and enjoy salon-quality results wherever you are.",
+      "cta": {
+        "primary": "Download for iOS",
+        "secondary": "Get it on Google Play"
+      }
+    },
+    "testimonials": {
+      "title": "Trusted by top barbers and beauty professionals 💼✨",
+      "items": [
+        {
+          "name": "Ahmet Barber",
+          "quote": "BiMakas has revolutionized how I connect with clients. Professional, reliable, and the booking system is seamless."
+        },
+        {
+          "name": "Elif Kuaför",
+          "quote": "As a mobile beauty professional, BiMakas gives me the flexibility to serve clients anywhere with complete trust and security."
+        },
+        {
+          "name": "Murat Styling",
+          "quote": "The platform's verification process ensures quality service. My clients love the convenience and I love the professional support."
+        },
+        {
+          "name": "Zeynep Beauty",
+          "quote": "BiMakas helped me expand my client base significantly. The real-time tracking and payment system is brilliant 🔥"
+        },
+        {
+          "name": "Can Berber",
+          "quote": "BiMakas can literally handle any beauty service request. It's changed how we work in this industry 🤯"
+        },
+        {
+          "name": "Selin Professional",
+          "quote": "BiMakas is literally the best platform for beauty professionals. Fastest booking and most reliable service I've ever used."
+        }
+      ]
+    },
+    "features": {
+      "title": "What does BiMakas include?",
+      "items": [
+        {
+          "title": "Call the Nearest Barber or Hairdresser to Your Location",
+          "description": "With the app, you can call the nearest barber or hairdresser to your location and receive hair, beard, and beauty care services wherever you want."
+        },
+        {
+          "title": "Wide Range of Services",
+          "description": "BiMakas is not limited to just haircuts; it also offers many beauty and personal care services such as blow-dry, keratin treatment, and skincare."
+        },
+        {
+          "title": "Easy Booking and Instant Requests",
+          "description": "Choose the type of service, check prices and user reviews. You can book for a later date or request an immediate appointment."
+        },
+        {
+          "title": "Live Tracking and Secure Payment",
+          "description": "Track your professional's arrival in real time on the map and make secure payments directly through the app."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Why choose BiMakas?",
+      "subtitle": "BiMakas is the most advanced beauty and grooming service platform.",
+      "items": [
+        {
+          "title": "Save Your Time",
+          "description": "BiMakas brings barber and beauty services right to you, eliminating the need to search for salons. No matter where you are, professional care is just a tap away."
+        },
+        {
+          "title": "Integrated with Your Favorite Beauty Services",
+          "description": "Whether it's a haircut, beard grooming, or beauty treatments… BiMakas brings together professionals tailored to your needs on one platform."
+        },
+        {
+          "title": "Enjoy Care with Ease",
+          "description": "At home, at work, or in your hotel — get your treatments done effortlessly by professionals who come to you, without compromising your comfort."
+        }
+      ]
+    },
+    "darkMode": {
+      "badge": "New feature",
+      "title": "Get Paid as a Barber & Stylist! 🌙✨",
+      "subtitle": "Receive your payment securely every time you provide a service."
+    },
+    "userReviews": {
+      "title": "Thousands of users talk about us",
+      "items": [
+        {
+          "username": "pree.palmer",
+          "quote": "im ngl I've lost 17 lbs with it doesn't need to be exact it's pretty decent"
+        },
+        {
+          "username": "Ordinary Tony",
+          "quote": "IVE BEEN BULKING FOR A YEAR STRAIGHT W APP FR 👏👏👏"
+        },
+        {
+          "username": "2025weightlossa...",
+          "quote": "I love your app it helps me keep track of my food without overthinking everything and gives me a visual of my portions plus it's so aesthetic 💓"
+        },
+        {
+          "username": "Mathias",
+          "quote": "I started to use it yesterday and im already giving it 5⭐️"
+        },
+        {
+          "username": "Ms Nsofor",
+          "quote": "For people that want to control their calories @calai.app is the app for you 🙌🔥"
+        }
+      ]
+    },
+    "ratingsCta": {
+      "title": "A lot of 5-star ratings from the test users",
+      "ratings": {
+        "appStore": "4.8/5",
+        "googlePlay": "4.7/5"
+      },
+      "trial": {
+        "title": "CLAIM YOUR 3-DAY FREE TRIAL",
+        "button": "Claim My Free Trial",
+        "disclaimer": "By signing up, you agree to our Terms of Service and Privacy Policy. No commitment. Cancel anytime."
+      }
+    },
+    "footer": {
+      "brandSection": {
+        "title": "BiMakas",
+        "subtitle": "Download BiMakas"
+      },
+      "legalSection": {
+        "title": "Legal",
+        "links": [
+          {
+            "label": "Privacy Policy",
+            "href": "/privacy"
+          },
+          {
+            "label": "Terms of use",
+            "href": "/terms"
+          }
+        ]
+      },
+      "companySection": {
+        "title": "Company",
+        "links": [
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      },
+      "copyright": "© Copyright 2025. All rights reserved",
+      "socialLinks": [
+        {
+          "platform": "linkedin",
+          "href": "https://linkedin.com/company/bimakas",
+          "icon": "linkedin"
+        },
+        {
+          "platform": "instagram", 
+          "href": "https://instagram.com/bimakas.app",
+          "icon": "instagram"
+        },
+        {
+          "platform": "tiktok",
+          "href": "https://tiktok.com/@bimakas.app", 
+          "icon": "tiktok"
+        }
+      ]
+    }
+  },
+  "tr": {
+    "navigation": {
+      "logo": "BiMakas",
+      "menuItems": {
+        "features": "Özellikler",
+        "testimonials": "Referanslar",
+        "reviews": "Yorumlar",
+        "download": "İndir"
+      },
+      "languageSelector": {
+        "english": "İngilizce",
+        "turkish": "Türkçe"
+      }
+    },
+    "hero": {
+      "socialProof": "Kullanıcılar tarafından seviliyor ⭐ 4.9 puan",
+      "headline": "BiMakas ile Tanışın",
+      "subheadline": "Güzellik ve bakım hizmetleri bulunduğunuz yerde",
+      "description": "BiMakas, lisanslı berberleri ve güzellik uzmanlarını evinize, ofisinize veya otelinize getiren anlık hizmet platformudur. Hemen randevu alın ve nerede olursanız olun salon kalitesinde sonuçların tadını çıkarın.",
+      "cta": {
+        "primary": "iOS için İndir",
+        "secondary": "Google Play'den İndir"
+      }
+    },
+    "testimonials": {
+      "title": "En iyi berber ve güzellik uzmanları tarafından tercih ediliyor 💼✨",
+      "items": [
+        {
+          "name": "Ahmet Berber",
+          "quote": "BiMakas müşterilerimle bağlantı kurma şeklimi devrim yarattı. Profesyonel, güvenilir ve rezervasyon sistemi sorunsuz."
+        },
+        {
+          "name": "Elif Kuaför",
+          "quote": "Mobil güzellik uzmanı olarak BiMakas bana her yerde müşterilere tam güven ve güvenlikle hizmet verme esnekliği sağlıyor."
+        },
+        {
+          "name": "Murat Styling",
+          "quote": "Platformun doğrulama süreci kaliteli hizmet garantisi veriyor. Müşterilerim kolaylığı, ben de profesyonel desteği seviyorum."
+        },
+        {
+          "name": "Zeynep Beauty",
+          "quote": "BiMakas müşteri tabanımı önemli ölçüde genişletmeme yardımcı oldu. Canlı takip ve ödeme sistemi harika 🔥"
+        },
+        {
+          "name": "Can Berber",
+          "quote": "BiMakas kelimenin tam anlamıyla her türlü güzellik hizmeti talebini karşılayabiliyor. Bu sektörde çalışma şeklimizi değiştirdi 🤯"
+        },
+        {
+          "name": "Selin Professional",
+          "quote": "BiMakas kelimenin tam anlamıyla güzellik uzmanları için en iyi platform. Şimdiye kadar kullandığım en hızlı rezervasyon ve en güvenilir hizmet."
+        }
+      ]
+    },
+    "features": {
+      "title": "BiMakas neleri içerir?",
+      "items": [
+        {
+          "title": "Konumunuza En Yakın Berber ve Kuaförü Çağırın",
+          "description": "Uygulama ile bulunduğunuz yere en yakın berber ya da kuaförü çağırabilir, saç, sakal ve güzellik bakım hizmetlerini istediğiniz yerde alabilirsiniz."
+        },
+        {
+          "title": "Geniş Hizmet Yelpazesi",
+          "description": "BiMakas, sadece saç kesimi hizmetleriyle sınırlı kalmaz; fön, keratin, cilt bakımı gibi birçok güzellik ve kişisel bakım hizmeti de sunar."
+        },
+        {
+          "title": "Kolay Randevu ve Anlık Talep",
+          "description": "Hizmet türünü seçin, fiyatları ve kullanıcı yorumlarını inceleyin. Dilerseniz ileri tarihli randevu alın ya da hemen talepte bulunun."
+        },
+        {
+          "title": "Canlı Takip ve Güvenli Ödeme",
+          "description": "Harita üzerinden uzmanınızın gelişini anlık takip edin ve ödemelerinizi güvenli bir şekilde uygulama üzerinden yapın."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Neden BiMakas'ı seçmelisiniz?",
+      "subtitle": "BiMakas, en gelişmiş güzellik ve bakım hizmeti platformudur.",
+      "items": [
+        {
+          "title": "Zamanınızı sizde kalsın",
+          "description": "Kuaför ve bakım hizmetlerini ayağınıza getirerek salon aramakla vakit kaybetmenizi önler. Nerede olursanız olun, profesyonel hizmet artık sadece bir dokunuş uzağınızda."
+        },
+        {
+          "title": "Favori bakım hizmetlerinizle entegre olun",
+          "description": "İster saç kesimi, ister sakal, ister güzellik bakımı olsun… BiMakas, ihtiyaçlarınıza uygun profesyonelleri tek bir platformda buluşturur."
+        },
+        {
+          "title": "Rahatlıkla bakım yaptırın",
+          "description": "Evde, işte ya da otelde — neredeyseniz oraya gelen uzmanlarla konforunuzdan ödün vermeden bakımınızı kolayca yaptırabilirsiniz."
+        }
+      ]
+    },
+    "darkMode": {
+      "badge": "Yeni özellik",
+      "title": "Kuaför & Berberler için Ödeme Alma! 🌙✨",
+      "subtitle": "Her hizmet verdiğinizde ödemenizi güvenle alabilirsiniz."
+    },
+    "userReviews": {
+      "title": "Binlerce kullanıcı hakkımızda konuşuyor",
+      "items": [
+        {
+          "username": "pree.palmer",
+          "quote": "yalan söylemeyeceğim, bununla 17 pound verdim tam olması gerekmiyor oldukça iyi"
+        },
+        {
+          "username": "Ordinary Tony",
+          "quote": "BİR YILDIR UYGULAMAYLA BULK YAPIYORUM GERÇEKTEN 👏👏👏"
+        },
+        {
+          "username": "2025weightlossa...",
+          "quote": "Uygulamanızı seviyorum, her şeyi fazla düşünmeden yemeğimi takip etmeme yardımcı oluyor ve porsiyonlarımın görselini veriyor ayrıca çok estetik 💓"
+        },
+        {
+          "username": "Mathias",
+          "quote": "Dün kullanmaya başladım ve şimdiden 5⭐️ veriyorum"
+        },
+        {
+          "username": "Ms Nsofor",
+          "quote": "Kalorilerini kontrol etmek isteyen insanlar için @calai.app sizin için uygulama 🙌🔥"
+        }
+      ]
+    },
+    "ratingsCta": {
+      "title": "Test kullanıcıları tarafından 5 yıldızlı değerlendirme",
+      "ratings": {
+        "appStore": "4.8/5",
+        "googlePlay": "4.7/5"
+      },
+      "trial": {
+        "title": "3 GÜNLÜK ÜCRETSİZ DENEMENİZİ TALEİP EDİN",
+        "button": "Ücretsiz Denememi Talep Et",
+        "disclaimer": "Kaydolarak Hizmet Şartları ve Gizlilik Politikamızı kabul etmiş olursunuz. Taahhüt yok. İstediğiniz zaman iptal edin."
+      }
+    },
+    "footer": {
+      "brandSection": {
+        "title": "BiMakas",
+        "subtitle": "BiMakas'ı İndir"
+      },
+      "legalSection": {
+        "title": "Yasal",
+        "links": [
+          {
+            "label": "Gizlilik Politikası",
+            "href": "/privacy"
+          },
+          {
+            "label": "Kullanım Şartları",
+            "href": "/terms"
+          }
+        ]
+      },
+      "companySection": {
+        "title": "Şirket",
+        "links": [
+          {
+            "label": "İletişim",
+            "href": "/contact"
+          }
+        ]
+      },
+      "copyright": "© Telif Hakkı 2025. Tüm hakları saklıdır",
+      "socialLinks": [
+        {
+          "platform": "linkedin",
+          "href": "https://linkedin.com/company/bimakas",
+          "icon": "linkedin"
+        },
+        {
+          "platform": "instagram", 
+          "href": "https://instagram.com/bimakas.app",
+          "icon": "instagram"
+        },
+        {
+          "platform": "tiktok",
+          "href": "https://tiktok.com/@bimakas.app", 
+          "icon": "tiktok"
+        }
+      ]
+    }
+  },
+  "cta": {
+    "enrollment": {
+      "en": {
+        "text": "Start Service Now",
+        "url": "https://listelee.vercel.app/kuaforun-gelsin"
+      },
+      "tr": {
+        "text": "Hemen Hizmet Ver", 
+        "url": "https://listelee.vercel.app/kuaforun-gelsin"
+      }
+    }
+  },
+  "comingSoon": {
+    "appStore": {
+      "en": "Çok Yakında",
+      "tr": "Çok Yakında"
+    },
+    "googlePlay": {
+      "en": "Çok Yakında", 
+      "tr": "Çok Yakında"
+    }
+  },
+  "images": {
+    "hero": {
+      "userAvatars": [
+        "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/used-by-1-1.png",
+        "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/used-by-2-2.png",
+        "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/used-by-3-3.png"
+      ],
+      "mobileMockup": "/images/header.png"
+    },
+    "testimonials": {
+      "influencers": [
+        {
+          "name": "Jeremiah Jones",
+          "image": "https://images.unsplash.com/photo-1567515004624-219c11d31f2e?w=400&h=600&fit=crop&crop=face"
+        },
+        {
+          "name": "Dawson Gibbs", 
+          "image": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=400&h=500&fit=crop&crop=face"
+        },
+        {
+          "name": "Hussein Farhat",
+          "image": "https://images.unsplash.com/photo-1583341612074-ccea5cd64f6a?w=400&h=480&fit=crop&crop=faceface"
+        },
+        {
+          "name": "Kadin Kerns",
+          "image": "https://images.unsplash.com/photo-1583341612074-ccea5cd64f6a?w=400&h=480&fit=crop&crop=face"
+        },
+        {
+          "name": "Brian Wallack",
+          "image": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=400&h=520&fit=crop&crop=face"
+        },
+        {
+          "name": "Alex Eubank",
+          "image": "https://images.unsplash.com/photo-1583341612074-ccea5cd64f6a?w=400&h=480&fit=crop&crop=face"
+        }
+      ]
+    },
+    "features": {
+      "mobileScreens": [
+        {
+          "title": "Konumunuza en yakın berber ve kuaförü çağırın",
+          "image": "/images/location.png"
+        },
+        {
+          "title": "Geniş hizmet yelpazesi",
+          "image": "/images/services.png"
+        },
+        {
+          "title": "Kolay randevu ve anlık talep",
+          "image": "/images/reservation.png"
+        },
+        {
+          "title": "Canlı takip ve güvenli ödeme",
+          "image": "/images/live.png"
+        }
+      ]
+    },
+    "userReviews": {
+      "profiles": [
+        "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/review1-4.jpeg",
+        "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/review2-5.jpg",
+        "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/review3-6.jpeg",
+        "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/review4-7.jpeg"
+      ]
+    },
+    "ratingsCta": {
+      "laurelWreath": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/svgs/wreath-2.svg",
+      "logo": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/icons/logo-8.png",
+      "mobileMockup": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/images/hero-image-2.webp"
+    },
+    "darkMode": {
+      "mobileMockup": "/images/payment.png"
+    }
+  },
+  "links": {
+    "appStore": {
+      "ios": "https://apps.apple.com/app/bimakas",
+      "android": "https://play.google.com/store/apps/details?id=com.bimakas"
+    },
+    "social": {
+      "instagram": "https://instagram.com/bimakas.app",
+      "tiktok": "https://tiktok.com/@bimakas.app",
+      "twitter": "https://twitter.com/bimakas_app"
+    },
+    "legal": {
+      "termsOfService": "/terms",
+      "privacyPolicy": "/privacy",
+      "support": "/support"
+    }
+  },
+  "brand": {
+    "name": "BiMakas",
+    "tagline": {
+      "en": "On-Demand Beauty & Grooming",
+      "tr": "Anlık Güzellik ve Bakım Hizmetleri"
+    },
+    "colors": {
+      "primary": "#ff7778",
+      "secondary": "#F59E0B", 
+      "accent": "#3B82F6",
+      "background": "#FFF8F0",
+      "text": "#ff7778",
+      "textSecondary": "#6B7280",
+      "white": "#FFFFFF"
+    },
+    "logo": {
+      "url": "/logo.png",
+      "alt": {
+        "en": "BiMakas Logo",
+        "tr": "BiMakas Logosu"
+      }
+    },
+    "appStoreButtons": {
+      "googlePlay": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/images/googleplay-1.png",
+      "appStore": "https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+    }
+  },
+  "configuration": {
+    "defaultLanguage": "en",
+    "availableLanguages": ["en", "tr"],
+    "theme": "light",
+    "isGooglePlayInDev": true,
+    "isAppStoreInDev": true,
+    "analytics": {
+      "googleAnalyticsId": "G-XXXXXXXXXX",
+      "facebookPixelId": "XXXXXXXXXX"
+    },
+    "seo": {
+      "en": {
+        "title": "BiMakas - On-Demand Beauty & Grooming Services",
+        "description": "Book licensed barbers and beauty professionals to your location with BiMakas. Instant booking, real-time tracking, and salon-grade results at home.",
+        "keywords": "mobile barber, home beauty services, on-demand grooming, beauty app, mobile salon"
+      },
+      "tr": {
+        "title": "BiMakas - Anlık Güzellik ve Bakım Hizmetleri", 
+        "description": "BiMakas ile lisanslı berber ve güzellik uzmanlarını bulunduğunuz yere çağırın. Anında rezervasyon, canlı takip ve salon kalitesi evinizde.",
+        "keywords": "mobil berber, evde güzellik hizmetleri, anlık bakım, güzellik uygulaması, mobil kuaför"
+      }
+    },
+    "features": {
+      "languageSelector": true,
+      "darkModeToggle": false,
+      "testimonialCarousel": true,
+      "mobileResponsive": true,
+      "animations": true
+    }
+  }
+}
