@@ -82,8 +82,8 @@ export default function LandingPage() {
                   </div>
                   <h2 className="text-3xl font-bold mb-4" style={{ color: config?.brand?.colors?.text || '#ff7778' }}>
                     {currentLanguage === 'tr' 
-                      ? 'İlk Haberdar Olan Siz Olun!'
-                      : 'Be the First to Know!'
+                      ? 'Ön kayıtta ilk kuaför hizmetiniz ücretsiz'
+                      : 'Your first barber service is free with pre-registration'
                     }
                   </h2>
                   <p className="text-gray-600 text-lg">
@@ -137,6 +137,24 @@ export default function LandingPage() {
                     : 'Your email has been successfully saved. We\'ll notify you when the app launches!'
                   }
                 </p>
+                
+                {/* Free Service Notification */}
+                <div className="bg-gradient-to-r from-pink-50 to-orange-50 border border-pink-200 rounded-xl p-6 mb-6">
+                  <div className="flex items-center gap-3 mb-2">
+                    <div className="w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center">
+                      <span className="text-lg">🎉</span>
+                    </div>
+                    <h3 className="text-xl font-bold" style={{ color: config?.brand?.colors?.text || '#ff7778' }}>
+                      {currentLanguage === 'tr' ? 'Harika Haber!' : 'Great News!'}
+                    </h3>
+                  </div>
+                  <p className="text-gray-700 font-medium">
+                    {currentLanguage === 'tr' 
+                      ? 'Mailini yazıp onay aldıktan sonra ilk hizmetiniz ücretsizdir!'
+                      : 'After writing your email and getting confirmation, your first service is free!'
+                    }
+                  </p>
+                </div>
                 <button
                   onClick={() => {
                     setIsSubmitted(false);
