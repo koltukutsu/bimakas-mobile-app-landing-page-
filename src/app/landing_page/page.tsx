@@ -150,8 +150,8 @@ export default function LandingPage() {
                   </div>
                   <p className="text-gray-700 font-medium">
                     {currentLanguage === 'tr' 
-                      ? 'Mailini yazıp onay aldıktan sonra ilk hizmetiniz ücretsizdir!'
-                      : 'After writing your email and getting confirmation, your first service is free!'
+                      ? 'İlk hizmetini ücretsiz alan sayılı kişilerden olabilirsin, sana haber vereceğiz!'
+                      : 'You could be one of the limited people to get their first service for free, we\'ll let you know!'
                     }
                   </p>
                 </div>
