@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { LanguageProvider } from "@/contexts/language-context";
+import MetaPixel from "@/providers/MetaPixel";
 
 export const metadata: Metadata = {
   title: "BiMakas - Anlık Güzellik ve Bakım Hizmetleri",
@@ -66,6 +67,7 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <body className="antialiased">
+        <MetaPixel />
         <LanguageProvider>
           {children}
         </LanguageProvider>

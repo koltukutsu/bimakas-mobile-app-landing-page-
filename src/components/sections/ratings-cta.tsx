@@ -30,6 +30,16 @@ const AppStoreButton = () => {
       href={config?.links?.appStore?.ios || "https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616"}
       className="block transition-transform hover:scale-105"
       aria-label="Download on the App Store"
+      onClick={() => {
+        if (typeof window !== 'undefined' && window.fbq) {
+          window.fbq("track", "Lead", {
+            content_name: "iOS App Download - Ratings CTA",
+            content_category: "App Download",
+            value: 0,
+            currency: "USD"
+          });
+        }
+      }}
     >
       <img
         src={config?.brand?.appStoreButtons?.appStore || "https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"}

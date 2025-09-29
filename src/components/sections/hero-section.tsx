@@ -31,6 +31,16 @@ const AppStoreButton = () => {
       href={config?.links?.appStore?.ios || "https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616?ppid=0fdd527c-4a8a-4b3f-9db0-ee844938c041"}
       className="block transition-transform hover:scale-105"
       aria-label="Download on the App Store"
+      onClick={() => {
+        if (typeof window !== 'undefined' && window.fbq) {
+          window.fbq("track", "Lead", {
+            content_name: "iOS App Download - Hero",
+            content_category: "App Download",
+            value: 0,
+            currency: "USD"
+          });
+        }
+      }}
     >
       <img
         src={config?.brand?.appStoreButtons?.appStore || "https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"}
@@ -106,6 +116,16 @@ const HeroSection = () => {
               <a 
                 href={config?.links?.appStore?.android || "https://play.google.com/store/apps/details?id=com.viraldevelopment.calai"} 
                 className="block transition-transform hover:scale-105"
+                onClick={() => {
+                  if (typeof window !== 'undefined' && window.fbq) {
+                    window.fbq("track", "Lead", {
+                      content_name: "Android App Download - Hero",
+                      content_category: "App Download",
+                      value: 0,
+                      currency: "USD"
+                    });
+                  }
+                }}
               >
                 <Image
                   src={config?.brand?.appStoreButtons?.googlePlay || "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4c004796-6564-41c1-bffa-6c2ecaf870e0-calai-app/assets/images/googleplay-1.png?"}

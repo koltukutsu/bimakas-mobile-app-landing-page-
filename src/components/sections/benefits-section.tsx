@@ -2,15 +2,44 @@
 
 import { Clock, Zap, TrendingDown } from "lucide-react";
 import { useLanguage } from "@/contexts/language-context";
+import { useEffect, useRef, useState } from "react";
 
 const BenefitsSection = () => {
   const { t, config } = useLanguage();
+  const sectionRef = useRef<HTMLElement>(null);
+  const [hasTrackedView, setHasTrackedView] = useState(false);
 
   // Get benefits from translations
   const benefitItems = t('benefits.items') || [];
 
   // Icon mapping for each benefit
   const icons = [Clock, Zap, TrendingDown];
+
+  // Track section view
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && !hasTrackedView) {
+            if (typeof window !== 'undefined' && window.fbq) {
+              window.fbq("track", "ViewContent", {
+                content_name: "Benefits Section",
+                content_category: "Engagement"
+              });
+            }
+            setHasTrackedView(true);
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, [hasTrackedView]);
 
   if (!Array.isArray(benefitItems) || benefitItems.length === 0) {
     return (
@@ -21,7 +50,7 @@ const BenefitsSection = () => {
   }
 
   return (
-    <section className="py-16 lg:py-24 px-6 lg:px-8 bg-[#FFF8F0]">
+    <section ref={sectionRef} className="py-16 lg:py-24 px-6 lg:px-8 bg-[#FFF8F0]">
       <div className="max-w-[1400px] mx-auto text-center">
         <h2 className="text-4xl lg:text-[48px] font-medium mb-4" style={{ color: config?.brand?.colors?.text || '#ff7778' }}>
           {t('benefits.title')}

@@ -112,6 +112,16 @@ export const Navbar: React.FC = () => {
               rel="noopener noreferrer"
               className="px-4 py-2 text-sm font-medium text-white rounded-lg transition-all duration-200 hover:opacity-90 hover:scale-105"
               style={{ backgroundColor: config.brand.colors.text }}
+              onClick={() => {
+                if (typeof window !== 'undefined' && window.fbq) {
+                  window.fbq("track", "Lead", {
+                    content_name: "Service Provider Signup - Navbar",
+                    content_category: "Provider Enrollment",
+                    value: 0,
+                    currency: "USD"
+                  });
+                }
+              }}
             >
               {config.cta?.enrollment?.[currentLanguage]?.text || "Hemen Hizmet Ver"}
             </a>
@@ -129,13 +139,31 @@ export const Navbar: React.FC = () => {
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
               <DropdownMenuItem
-                onClick={() => setLanguage('en')}
+                onClick={() => {
+                  setLanguage('en');
+                  if (typeof window !== 'undefined' && window.fbq) {
+                    window.fbq("track", "CustomizeProduct", {
+                      content_name: "Language Selection",
+                      customization_type: "language",
+                      value: "en"
+                    });
+                  }
+                }}
                 className={currentLanguage === 'en' ? 'bg-gray-100' : ''}
               >
                 {t('navigation.languageSelector.english')}
               </DropdownMenuItem>
               <DropdownMenuItem
-                onClick={() => setLanguage('tr')}
+                onClick={() => {
+                  setLanguage('tr');
+                  if (typeof window !== 'undefined' && window.fbq) {
+                    window.fbq("track", "CustomizeProduct", {
+                      content_name: "Language Selection",
+                      customization_type: "language",
+                      value: "tr"
+                    });
+                  }
+                }}
                 className={currentLanguage === 'tr' ? 'bg-gray-100' : ''}
               >
                 {t('navigation.languageSelector.turkish')}

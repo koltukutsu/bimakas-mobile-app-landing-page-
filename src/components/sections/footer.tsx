@@ -114,6 +114,16 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="inline-block px-6 py-3 text-sm font-medium text-white rounded-lg transition-all duration-200 hover:opacity-90 hover:scale-105"
                 style={{ backgroundColor: config?.brand?.colors?.text || '#ff7778' }}
+                onClick={() => {
+                  if (typeof window !== 'undefined' && window.fbq) {
+                    window.fbq("track", "Lead", {
+                      content_name: "Service Provider Signup - Footer",
+                      content_category: "Provider Enrollment",
+                      value: 0,
+                      currency: "USD"
+                    });
+                  }
+                }}
               >
                 {config?.cta?.enrollment?.[currentLanguage]?.text || "Hemen Hizmet Ver"}
               </a>

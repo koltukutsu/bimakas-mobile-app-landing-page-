@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
@@ -13,12 +13,40 @@ function cn(...inputs: ClassValue[]) {
 const FeaturesShowcase = () => {
   const { t, config } = useLanguage();
   const [activeIndex, setActiveIndex] = useState(0);
+  const sectionRef = useRef<HTMLElement>(null);
+  const [hasTrackedView, setHasTrackedView] = useState(false);
 
   // Get feature data from config with fallback
   const featureData = t('features.items') || [];
   
   // Mobile screen images that correspond to each feature
   const mobileScreens = config?.images?.features?.mobileScreens || [];
+
+  // Track section view
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && !hasTrackedView) {
+            if (typeof window !== 'undefined' && window.fbq) {
+              window.fbq("track", "ViewContent", {
+                content_name: "Features Section",
+                content_category: "Engagement"
+              });
+            }
+            setHasTrackedView(true);
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, [hasTrackedView]);
 
   // Fallback if no feature data is available
   if (!Array.isArray(featureData) || featureData.length === 0) {
@@ -30,7 +58,7 @@ const FeaturesShowcase = () => {
   }
 
   return (
-    <section id="features" className="py-16 lg:py-24 px-6 lg:px-8 bg-[#FFF8F0]">
+    <section ref={sectionRef} id="features" className="py-16 lg:py-24 px-6 lg:px-8 bg-[#FFF8F0]">
       <h2 className="text-center text-4xl mt-16 lg:mt-36 lg:text-[48px] font-medium mb-12 lg:mb-16" style={{ color: config?.brand?.colors?.text || '#ff7778' }}>
         {t('features.title')}
       </h2>
@@ -48,7 +76,15 @@ const FeaturesShowcase = () => {
             {featureData.map((feature: any, index: number) => (
               <button
                 key={index}
-                onClick={() => setActiveIndex(index)}
+                onClick={() => {
+                  setActiveIndex(index);
+                  if (typeof window !== 'undefined' && window.fbq) {
+                    window.fbq("track", "ViewContent", {
+                      content_name: `Feature Interaction - ${feature.title}`,
+                      content_category: "Feature Engagement"
+                    });
+                  }
+                }}
                 className={cn(
                   "w-3 h-3 rounded-full transition-all duration-300",
                   activeIndex === index ? "bg-gray-800 scale-110" : "bg-gray-300 hover:bg-gray-400"
